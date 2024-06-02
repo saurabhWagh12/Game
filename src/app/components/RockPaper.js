@@ -62,11 +62,8 @@ function RockPaper() {
         }
         function calling(){
             if (rounds === 0) {
-                if(playerScore*2>=computerScore){
+                if(playerScore>computerScore){
                     updateScore();
-                    updateScore();
-                }
-                else if(playerScore>computerScore){
                     updateScore();
                 }else if(computerScore===playerScore){
                     setRounds(3);
