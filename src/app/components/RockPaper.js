@@ -72,6 +72,7 @@ function RockPaper() {
                     setComputerChoise(null);
                 }else{
                     alert(`Computer Won`)
+                    Cookies.set('score',0);
                     navigateToNextLink();
                 }
                 return;
